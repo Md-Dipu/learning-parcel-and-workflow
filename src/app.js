@@ -1,0 +1,1 @@
+document.getElementById('mainTitle').innerText = 'I changed it using javascript.';
