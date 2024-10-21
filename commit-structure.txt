@@ -1,0 +1,5 @@
+[type/scope] Description
+
+body
+
+footer(s)
