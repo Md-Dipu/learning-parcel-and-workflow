@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "parcel serve -p 3000 --open",
     "build": "parcel build --public-url ./ --no-source-maps",
-    "prebuild": "rimraf dist",
-    "prepare": "nvm use"
+    "prebuild": "rimraf dist"
   },
   "keywords": [],
   "author": "",
