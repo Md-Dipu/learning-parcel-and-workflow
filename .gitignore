@@ -4,3 +4,6 @@ node_modules/
 # Cache and build
 .parcel-cache/
 dist/
+
+# Environment
+.idea/
