@@ -8,4 +8,16 @@ p {
 
 button {
     display: block;
+    padding: 6px 10px;
+    margin: 20px ;
+}
+/* Riadul */
+h2{
+    font-family: sans-serif;
+    color: maroon;
+    margin: 50px;
+}
+h4{
+    font-family: sans-serif;
+    color: rgb(68, 68, 68);
 }
