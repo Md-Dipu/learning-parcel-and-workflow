@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-"GitHub: From Zero to Intermediate" is an educational project aimed at providing a comprehensive understanding of GitHub, the leading platform for version control and collaborative software development. This project focuses on teaching users how to effectively utilize GitHub's core functionalities, including:
+GitHub: From Zero to Intermediate" is an educational project aimed at providing a comprehensive understanding of GitHub, the leading platform for version control and collaborative software development. This project focuses on teaching users how to effectively utilize GitHub's core functionalities, including:
 
 - **Creating and Managing Repositories**: Learn how to create repositories, clone them, and manage their settings.
 - **Issues and Project Management**: Understand how to create, assign, and comment on issues, which are essential for tracking tasks and bugs in a project.
@@ -33,11 +33,7 @@ We would like to thank the following individuals for their contributions to this
 - [Introduction](#introduction)
 - [Learning Objectives](#learning-objectives)
 - [Installation](#installation)
-- [Getting Started](#getting-started)
-- [Course Structure](#course-structure)
-- [Resources](#resources)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
