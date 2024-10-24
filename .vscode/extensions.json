@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "jasonnutter.search-node-modules",
+    "aaron-bond.better-comments",
+    "xabikos.javascriptsnippets",
+    "esbenp.prettier-vscode"
+  ]
+}
