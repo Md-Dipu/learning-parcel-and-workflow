@@ -1,23 +1,29 @@
 h1 {
-    color: rgb(127, 204, 4);
+  color: rgb(127, 204, 4);
 }
 
 p {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 button {
-    display: block;
-    padding: 6px 10px;
-    margin: 20px ;
+  display: block;
+  padding: 6px 10px;
+  margin: 20px;
 }
 /* Riadul */
-h2{
-    font-family: sans-serif;
-    color: rgb(127, 204, 4);
-    margin: 50px;
+h2 {
+  font-family: sans-serif;
+  color: rgb(127, 204, 4);
+  margin: 50px;
 }
-h4{
-    font-family: sans-serif;
-    color: rgb(68, 68, 68);
+h4 {
+  font-family: sans-serif;
+  color: rgb(68, 68, 68);
+}
+/* footer  */
+.footer {
+  margin: 50px;
+  background-color: rgb(223, 223, 223);
+  color: white;
 }

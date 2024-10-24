@@ -4,15 +4,33 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel serve -p 3000 --open",
-    "build": "parcel build --public-url ./ --no-source-maps",
-    "prebuild": "rimraf dist"
+    "prebuild": "rimraf dist",
+    "build": "parcel build --dist-dir ./build --public-url ./ --no-source-maps",
+    "lint": "eslint . --ext .js,.html,.css,.md",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{html,css,md}": "prettier --write",
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
     "parcel": "^2.12.0",
+    "prettier": "^3.3.3",
     "rimraf": "^6.0.1"
   }
 }
